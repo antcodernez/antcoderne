@@ -1,0 +1,15 @@
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+:root
+    {
+        --fn-small: 1.2rem;
+        --some-gray: #4c4c4c;
+    }
+html
+    {
+        font-size: 62.5%;
+    }
