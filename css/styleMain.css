@@ -20,18 +20,32 @@ html
     }
 body
     {
-        background-image: linear-gradient(to top,#373737, #454545, #141414 40%);
+        height: 200vh;
+        background-image: linear-gradient(to top, #454545, #141414 50%);
         background-repeat: no-repeat;
         color: var(--purple-my-color);
     }
 header
     {
+        position: relative;
         display: flex;
         align-items: center;
         width: 100%;
-        height: 80px;
+        height: 150px;
+        justify-content: center;
     }
 header i
     {
-        font-size: 40px;
+        position: absolute;
+        font-size: 46px;
+        left: 4%;
+    }
+header figure
+    {
+        background-image: url("../assets/logos/Jes.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 140px;
+        height: 122px;
     }
